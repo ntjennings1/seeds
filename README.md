@@ -31,6 +31,7 @@ The following open-source programming languages and subsystems were leveraged to
 
 The example included in this repository will systematically educate users on the following programming principles:
 
+```
     - Program Structure
     - Packages / Imports
     - Input / Output
@@ -46,20 +47,24 @@ The example included in this repository will systematically educate users on the
     - Encapsulation 
     - Inheritance 
     - Parallelism 
+```
 
 ## Topics
 
 The programming principles listed above will be emphasized through the following topics of study:
 
+```
     - Mathematics
     - System analysis
     - Web design 
     - Research & Development
     - Communication
     - Security
-    
+```
+
 ## Acknowledgements
 
+```
     Noah Jennings 
         TC 
         ntjennings1@gmail.com
@@ -68,3 +73,4 @@ The programming principles listed above will be emphasized through the following
     TC 
         th3orycc@gmail.com
         Virginia Beach, VA
+```
