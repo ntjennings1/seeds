@@ -1,6 +1,6 @@
-# Listing
+# Grouping
 
-This fifth example will create a list of integers.
+This sixth example will organize list elements into smaller groups.
 
 ## Usage
 
@@ -19,6 +19,7 @@ The following programming principles are covered in this example:
     - Documentation
     - Functions
     - Variables
+    - Scoping
     - Looping
     - Conditions
     - Execution

@@ -1,6 +1,6 @@
-# Listing
+# Alikes
 
-This fifth example will create a list of integers.
+This seventh example will organize similar list elements into smaller groups.
 
 ## Usage
 
@@ -19,10 +19,11 @@ The following programming principles are covered in this example:
     - Documentation
     - Functions
     - Variables
+    - Scoping
     - Looping
     - Conditions
     - Execution
-    - Output
+    - Input / Output
 ```
 
 ## Acknowledgements
