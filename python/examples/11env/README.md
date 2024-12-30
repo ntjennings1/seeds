@@ -1,6 +1,6 @@
-# People
+# Env
 
-This tenth example will utilize the concept of encapsulation in relation to people.
+This tenth example will utilize the concept of inheritance in relation to the environment.
 
 ## Usage
 
@@ -26,6 +26,7 @@ The following programming principles are covered in this example:
     - Conditions
     - Abstraction
     - Encapsulation
+    - Inheritance
     - Execution
     - Input / Output
 ```

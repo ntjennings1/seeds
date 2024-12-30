@@ -1,6 +1,6 @@
-# Operations
+# Env
 
-This ninth example will utilize the concept of abstraction.
+This tenth example will utilize the concept of inheritance in relation to the environment.
 
 ## Usage
 
@@ -24,7 +24,10 @@ The following programming principles are covered in this example:
     - Scoping
     - Looping
     - Conditions
+    - Error Handling
     - Abstraction
+    - Encapsulation
+    - Inheritance
     - Execution
     - Input / Output
 ```

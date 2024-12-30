@@ -33,19 +33,20 @@ The example included in this repository will systematically educate users on the
 
 ```
     - Program Structure
+    - Documentation
     - Packages / Imports
-    - Input / Output
-    - Execution   
-    - Documentation 
-    - Naming Conventions 
     - Functions
+    - Naming Conventions
+    - Variables
     - Scoping
-    - Variables 
+    - Looping
     - Conditions
-    - Looping  
-    - Abstraction 
-    - Encapsulation 
-    - Inheritance 
+    - Error Handling
+    - Abstraction
+    - Encapsulation
+    - Inheritance
+    - Execution
+    - Input / Output
     - Parallelism 
 ```
 

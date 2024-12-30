@@ -1,5 +1,5 @@
 """ Import objects. """
-from person import Person
+from obj.person import Person
 
 """ Gathers a persons name.
 
@@ -15,7 +15,7 @@ def get_name():
 
 @returns null
 """
-def main():
+def people():
     
     go = True
 
@@ -30,4 +30,4 @@ def main():
             print(person.get_name() + " was here!")
 
 """ Runs the main function. """
-main()
+people()

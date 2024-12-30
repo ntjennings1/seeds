@@ -1,16 +1,16 @@
-class Person(): 
+class System(): 
 
     """ 
-        A class representation of a person. 
+        A class representation of a system. 
 
         ```
         Attributes
         ----------
         name : str 
-            The person's name. 
+            The system's name. 
     """
 
-    """ Initialize a new person (constructor).
+    """ Initialize a new system.
     
     @return null
     """

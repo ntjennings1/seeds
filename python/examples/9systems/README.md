@@ -1,6 +1,6 @@
-# People
+# Systems
 
-This tenth example will utilize the concept of encapsulation in relation to people.
+This ninth example will utilize the concept of abstraction in relation to a system.
 
 ## Usage
 
@@ -25,7 +25,6 @@ The following programming principles are covered in this example:
     - Looping
     - Conditions
     - Abstraction
-    - Encapsulation
     - Execution
     - Input / Output
 ```
