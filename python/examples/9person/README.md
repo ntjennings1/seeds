@@ -1,6 +1,6 @@
-# Alikes
+# Operations
 
-This seventh example will organize similar list elements into smaller groups.
+This ninth example will utilize the concept of abstraction.
 
 ## Usage
 
@@ -17,12 +17,14 @@ The following programming principles are covered in this example:
 ```
     - Program Structure
     - Documentation
+    - Packages / Imports
     - Functions
     - Naming Conventions
     - Variables
     - Scoping
     - Looping
     - Conditions
+    - Abstraction
     - Execution
     - Input / Output
 ```

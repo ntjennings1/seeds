@@ -1,6 +1,6 @@
-# Alikes
+# Operations
 
-This seventh example will organize similar list elements into smaller groups.
+This eighth example will perform mathematical operations on a single number.
 
 ## Usage
 
@@ -17,6 +17,7 @@ The following programming principles are covered in this example:
 ```
     - Program Structure
     - Documentation
+    - Packages / Imports
     - Functions
     - Naming Conventions
     - Variables

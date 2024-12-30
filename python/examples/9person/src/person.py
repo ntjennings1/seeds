@@ -1,4 +1,3 @@
-""" Person """
 class Person(): 
 
     """ 
@@ -11,7 +10,7 @@ class Person():
             The person's name. 
     """
 
-    """ Initialize a new user (constructor).
+    """ Initialize a new person (constructor).
     
     @return null
     """

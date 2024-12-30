@@ -1,6 +1,6 @@
-# Alikes
+# Operations
 
-This seventh example will organize similar list elements into smaller groups.
+This tenth example will utilize the concept of encapsulation.
 
 ## Usage
 
@@ -17,12 +17,15 @@ The following programming principles are covered in this example:
 ```
     - Program Structure
     - Documentation
+    - Packages / Imports
     - Functions
     - Naming Conventions
     - Variables
     - Scoping
     - Looping
     - Conditions
+    - Abstraction
+    - Encapsulation
     - Execution
     - Input / Output
 ```

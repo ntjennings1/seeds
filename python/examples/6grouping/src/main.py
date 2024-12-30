@@ -1,6 +1,7 @@
 """ Organizes numbers in groups of three.
 
-@returns null
+@param nums : The numbers
+@type nums : list
 """
 def grouping(nums):
 
