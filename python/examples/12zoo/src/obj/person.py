@@ -9,6 +9,12 @@ class Person(Mammal):
         ```
         Attributes
         ----------
+        size : str 
+            The mammal's size. 
+        type : str
+            The mammal's type.
+        name : str
+            The mammal's name.
     """
 
     """ Initialize a new person.

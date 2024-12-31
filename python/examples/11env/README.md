@@ -1,6 +1,6 @@
 # Env
 
-This tenth example will utilize the concept of inheritance in relation to the environment.
+This eleventh example will utilize the concept of inheritance in relation to an environment.
 
 ## Usage
 

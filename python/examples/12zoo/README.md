@@ -1,6 +1,6 @@
-# Env
+# Zoo
 
-This tenth example will utilize the concept of inheritance in relation to the environment.
+This twelth example will utilize the concept of inheritance in relation to a zoo.
 
 ## Usage
 

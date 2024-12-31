@@ -11,7 +11,17 @@ class Zoo():
         Attributes
         ----------
         name : str 
-            The zoo's name. 
+            The zoo's name.
+        occupancy : int
+            The zoo's occupancy.
+        creatures : list
+            The zoo's creatures.
+
+        Methods
+        -------
+        create : Sets the zoo's initial characteristics.
+        populate : Populates the zoo with people and mammals.
+        show : Displays the zoo's creatures and their characteristics.
     """
 
     """ Initialize a new zoo.
@@ -25,24 +35,58 @@ class Zoo():
         
         self.create()
 
+    """ Returns the zoo's name.
+    
+    @return name : The zoo's name
+    @rtype name : str
+    """
     def get_name(self):
         return self.name
 
+    """ Sets the zoo's name.
+    
+    @param name : The zoo's name
+    @type name : str
+    """
     def set_name(self, name):
         self.name = name
     
+    """ Returns the zoo's occupancy.
+    
+    @return occupancy : The zoo's occupancy
+    @rtype occupancy : int
+    """
     def get_occupancy(self):
         return self.occupancy
     
+    """ Sets the zoo's occupancy.
+    
+    @param occupancy : The zoo's occupancy
+    @type occupancy : int
+    """
     def set_occupancy(self, occupancy):
         self.occupancy = occupancy
 
+    """ Returns the zoo's creatures.
+    
+    @return creatures : The zoo's creatures
+    @rtype creatures : list
+    """
     def get_creatures(self):
         return self.creatures
     
+    """ Sets the zoo's creatures.
+
+    @param creatures : The zoo's creatures
+    @type creatures : list
+    """
     def set_creatures(self, creatures):
         self.creatures = creatures
 
+    """ Sets the zoo's initial characteristics.
+    
+    @return null
+    """
     def create(self):
 
         try:
@@ -52,6 +96,10 @@ class Zoo():
             print('Error creating zoo. Check inputs')
             exit(0)
 
+    """ Populates the zoo with people and mammals.
+    
+    @return null
+    """
     def populate(self):
 
         print('\nLets populate our zoo with people and mammals\n')
@@ -91,6 +139,10 @@ class Zoo():
 
             i += 1
 
+    """ Displays the zoo's creatures and their characteristics.
+    
+    @return null
+    """
     def show(self):
 
         print()

@@ -9,8 +9,10 @@ class Person(Mammal):
         ```
         Attributes
         ----------
-        name : str 
-            The person's name. 
+        size : str 
+            The mammal's size. 
+        name : str
+            The mammal's name. 
     """
 
     """ Initialize a new person.
@@ -19,10 +21,3 @@ class Person(Mammal):
     """
     def __init__(self): 
         super().__init__()
-        self.name = ""
-
-    def get_name(self):
-        return self.name
-
-    def set_name(self, name):
-        self.name = name

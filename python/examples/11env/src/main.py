@@ -13,7 +13,7 @@ def get_size():
 
 """ Gathers a creature name.
 
-@return name : The persons name
+@return name : The creatures name
 @rtype name: str
 """
 def get_name():
@@ -21,7 +21,7 @@ def get_name():
     name = input('Enter a name (e to exit): ')
     return name
 
-""" Repetitively creates people
+""" Creates and characterizes creatures.
 
 @returns null
 """
@@ -49,5 +49,5 @@ def env():
                 print(person.get_name() + " is here!")
                 print("Their size is :", person.get_size(), "kgs")
 
-""" Runs the main function. """
+""" Runs the env function. """
 env()

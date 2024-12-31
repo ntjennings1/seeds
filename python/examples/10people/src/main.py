@@ -11,7 +11,7 @@ def get_name():
     name = input('Enter a name (e to exit): ')
     return name
 
-""" Repetitively creates people
+""" Repetitively creates people.
 
 @returns null
 """
@@ -29,5 +29,5 @@ def people():
         else:
             print(person.get_name() + " was here!")
 
-""" Runs the main function. """
+""" Runs the people function. """
 people()

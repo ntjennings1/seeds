@@ -11,5 +11,5 @@ def zoo():
     zoo.populate()
     zoo.show()
 
-""" Runs the main function. """
+""" Runs the zoo function. """
 zoo()
