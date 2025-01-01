@@ -1,6 +1,6 @@
-# Hello World
+# Sum
 
-This first example will print a short message.
+This second example will find the sum of two numbers. 
 
 ## Usage
 
@@ -16,9 +16,10 @@ The following programming principles are covered in this example:
 
 ```
     - Program Structure
+    - Documentation
+    - Functions
     - Execution
     - Output
-    - Documentation
 ```
 
 ## Acknowledgements

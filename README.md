@@ -29,7 +29,7 @@ The following open-source programming languages and subsystems were leveraged to
 
 ## Principles 
 
-The example included in this repository will systematically educate users on the following programming principles:
+The examples included in this repository will systematically educate users on the following programming principles:
 
 ```
     - Program Structure
