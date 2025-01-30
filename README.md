@@ -65,6 +65,8 @@ The programming principles listed above will be emphasized through the following
 
 ## Acknowledgements
 
+A huge shoutout to these folks for contributing to the continued development of the examples in this repository:
+
 ```
     Noah Jennings 
         TC 
