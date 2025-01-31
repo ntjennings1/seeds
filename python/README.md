@@ -70,7 +70,26 @@ bool | False | The interger 0
 ### Bitwise Types
 ### Iterator Types
 ### Sequence Types
+These represent collections and consist of lists, tuples, dictionarys, ranges, etc. These variables are iterable, either changeable or not, and have their own unique set of operations.
+
+Here are some examples:
+
+Type | Value | Description
+---|---|---
+list | [1, 2, 3] | A small list of ordered intergers.
+tuple | (4, 5, 6) | A small tuple of ordered intergers.
+dict | {'seven'=7, 'eight'=8, 'nine'=9} | A small dictionary of strings with their corresponding interger values.
+
 ### Text Sequence Type
+These represent textual data, otherwise known as strings (str). Often accompanied by quotation marks, this data type is used in the place of words or characters and supports its own set of operations.
+
+Here are some examples:
+
+Type | Value | Description
+---|---|---
+str | 'c' | A single character.
+str | 'Hello World' | Two words.
+
 ### Binary Sequence Types
 ### Set Types
 ### Mapping Types
@@ -96,6 +115,8 @@ $\sqrt{-1}$ $/$ $\sqrt{-1}$ | 1 + 0j| $\sqrt{-1}$ $/$ $\sqrt{-1}$ $=$ 1
 ### Boolean Type
 These can be used to test truth value of statements. They are used within *if* or *while* conditions and typically define set membership or a relationship between two variables. 
 
+Here are some examples:
+
 Var | Operation | Result | Description
 ---|---|---|---
 c = 4 | if c is (5 or 6)  | False | Applies comparison of some variable, c, to other variables in a condition  
@@ -105,7 +126,29 @@ c = True | if not c | True | Applies truth of some statement, c, to a condition
 ### Bitwise Types
 ### Iterator Types
 ### Sequence Types
+These can be used to evaluate and manipulate the different sequence types. They are often used by themselves or in conjunction with boolean operators. 
+
+Here are some examples:
+
+Var | Operation | Result | Description
+---|---|---|---
+c = [1, 2, 3]| if 2 is c  | True | Checks the contents of some list, c, for the existence of the number 2 
+c = (1, 2, 3)| print(len(c))  | 3 | Outputs the length of some tuple, c
+c = dict(one=1, two=2, two=2, three=3) | print(c['one'])  | 1 | Prints the value of the key 'one' in some dictionary, c 
+
 ### Text Sequence Type
+These can be used to alter and characterize strings. Strings support many of the other operation types but also have methods unique to themselves.
+
+
+Here are some examples:
+
+Var | Operation | Result | Description
+---|---|---|---
+c = 'Hello World' | "Hell" in c  | True | Checks the existence of 'Hell' in some string, c 
+c = 'This "is" it.' | c.isalnum() | False | Determines if the string, c, consists of only alphanumeric symbols 
+c = "Another" | c.isalpha() | True | Determines if the string, c, consists of only alphabetic symbols
+c = "0,1,2,3" | print(c.split(",")) | ['0', '1', '2', '3'] | Prints a list of words in some string, c, seperated by the delimiter "," 
+
 ### Binary Sequence Types
 ### Set Types
 ### Mapping Types
