@@ -4,13 +4,21 @@ Incremental programming examples written in Python.
 
 ## About
 
-Python is a high-level programming language that has become general purpose. It emphasizes code readability through significant indentation and supports the structured, object-oriented, and functional programming paradigms.
+Python is a high-level scripting language that was created by Guido Van Rossum in 1989. Since its release in 1991, Python has
+become a general purpose tool tailored to Unix and C hackers. The scripting language emphasizes code readability through
+significant indentation and hefty support of the structured, object-oriented, and functional programming paradigms. You can see
+Python implemented in many STEM settings for Web Development, Data Science, Machine Learning (ML), Cybersecurity, the Internet
+of Things (IoT), and general education.
 
-The programs in this repository will use all supported paradigms to help users build on their programming abilities, improve their attention to detail, increase their knowledge base, refine their adaptability over time.
+The programs in this repository will use all supported paradigms to help users build on their programming abilities,
+improve their attention to detail, increase their knowledge base, and refine their adaptability over time. In development, we
+will study an Object-Oriented Programming approach and apply it to different disciplines such as Scientific Computing,
+Data Visualization, Automation, and more!
 
 ## Software Requirements
 
-The following open-source programming language and subsystems were leveraged to develop the educational examples included in this portion of the seeds:
+The following open-source programming language and subsystems were used to develop the educational examples included in
+this portion of the seeds:
 
 ```
     - Python 3.13.0
@@ -42,10 +50,14 @@ The examples included in this repository will systematically educate users on th
 
 ## Data Types
 
-This section will discuss the different data types provided by this programming language. They are leveraged to create the examples and will be necessary to progress further.
+This section will discuss different data types provided by Python. They were leveraged to create the examples and will be
+necessary to progress further.
 
 ### Numeric Types
-These are intergers, floating points, or complex numbers. Each numeric type is accompanied by their own set of operations but are used to represent some quantity. Intergers (int) are plain numbers without a decimal point whereas floating points (float) are plain numbers with values after a decimal. Complex numbers (comlex) are imaginary numbers or numbers that contain the square root of negative one.
+These are integers, floating points, or complex numbers. Each numeric type is accompanied by their own set of operations but are
+used to represent some quantity. integers (int) are plain numbers without a decimal point whereas floating points (float) are plain
+numbers with values after a decimal. Complex numbers (comlex) are imaginary numbers or numbers that contain the square root of
+negative one.
 
 Here are some examples:
 
@@ -56,7 +68,8 @@ float | 1.0 | Plain number with some value(s) after the decimal point
 complex | 1j | Plain number and **j** representing $\sqrt{-1}$
 
 ### Boolean Type
-These represent truth values and can only represent instances of **True** or **False**. The Boolean type **bool** can also behave like numeric types where zero is False and any nonzero value is True. 
+These represent truth values and can only represent instances of **True** or **False**. The Boolean type **bool** can also behave
+like numeric types where zero is False and any nonzero value is True. 
 
 Here are some examples:
 
@@ -65,23 +78,23 @@ Type | Value | Description
 bool | False | A characteristic between of two dissimilar variables
 bool | True | The logical calculus of set membership 
 bool | True | The complex number 1j or $\sqrt{-1}$
-bool | False | The interger 0
+bool | False | The integer 0
 
-### Bitwise Types
-### Iterator Types
 ### Sequence Types
-These represent collections and consist of lists, tuples, dictionarys, ranges, etc. These variables are iterable, either changeable or not, and have their own unique set of operations.
+These represent collections and consist of lists, tuples, dictionarys, ranges, etc. These variables are iterable, either changeable
+or not, and have their own unique set of operations.
 
 Here are some examples:
 
 Type | Value | Description
 ---|---|---
-list | [1, 2, 3] | A small list of ordered intergers.
-tuple | (4, 5, 6) | A small tuple of ordered intergers.
-dict | {'seven'=7, 'eight'=8, 'nine'=9} | A small dictionary of strings with their corresponding interger values.
+list | [1, 2, 3] | A small list of ordered integers.
+tuple | (4, 5, 6) | A small tuple of ordered integers.
+dict | {'seven'=7, 'eight'=8, 'nine'=9} | A small dictionary of strings with their corresponding integer values.
 
 ### Text Sequence Type
-These represent textual data, otherwise known as strings (str). Often accompanied by quotation marks, this data type is used in the place of words or characters and supports its own set of operations.
+These represent textual data, otherwise known as strings (str). Often accompanied by quotation marks, this data type is used in the
+place of words or characters and supports its own set of operations.
 
 Here are some examples:
 
@@ -90,17 +103,14 @@ Type | Value | Description
 str | 'c' | A single character.
 str | 'Hello World' | Two words.
 
-### Binary Sequence Types
-### Set Types
-### Mapping Types
-### Type Annotation Types
-
 ## Operators
 
-This section will discuss the different operators provided by this programming language. They are leveraged to create the examples and will be necessary to progress further.
+This section will discuss the different operators provided by this programming language. They are leveraged to create the examples
+and will be necessary to progress further.
 
 ### Numeric Types
-These can be used to manipulate or compare the values of int and float data, not complex data. They are associated with int, float, or bool data types depending on the nature of the mathematical operation/comparison.
+These can be used to manipulate or compare the values of int and float data, not complex data. They are associated with int, float,
+or bool data types depending on the nature of the mathematical operation/comparison.
 
 Here are some examples:
 
@@ -113,7 +123,8 @@ Operation | Result | Description
 $\sqrt{-1}$ $/$ $\sqrt{-1}$ | 1 + 0j| $\sqrt{-1}$ $/$ $\sqrt{-1}$ $=$ 1 
 
 ### Boolean Type
-These can be used to test truth value of statements. They are used within *if* or *while* conditions and typically define set membership or a relationship between two variables. 
+These can be used to test truth value of statements. They are used within *if* or *while* conditions and typically define set
+membership or a relationship between two variables. 
 
 Here are some examples:
 
@@ -123,10 +134,9 @@ c = 4 | if c is (5 or 6)  | False | Applies comparison of some variable, c, to o
 c = 'o' | if c in ('ok and 'no') | True | Applies existence of some variable, c, in other expressions to a condition 
 c = True | if not c | True | Applies truth of some statement, c, to a condition 
 
-### Bitwise Types
-### Iterator Types
 ### Sequence Types
-These can be used to evaluate and manipulate the different sequence types. They are often used by themselves or in conjunction with boolean operators. 
+These can be used to evaluate and manipulate the different sequence types. They are often used by themselves or in conjunction with
+boolean operators. 
 
 Here are some examples:
 
@@ -137,7 +147,8 @@ c = (1, 2, 3)| print(len(c))  | 3 | Outputs the length of some tuple, c
 c = dict(one=1, two=2, two=2, three=3) | print(c['one'])  | 1 | Prints the value of the key 'one' in some dictionary, c 
 
 ### Text Sequence Type
-These can be used to alter and characterize strings. Strings support many of the other operation types but also have methods unique to themselves.
+These can be used to alter and characterize strings. Strings support many of the other operation types but also have methods unique
+to themselves.
 
 
 Here are some examples:
@@ -148,11 +159,6 @@ c = 'Hello World' | "Hell" in c  | True | Checks the existence of 'Hell' in some
 c = 'This "is" it.' | c.isalnum() | False | Determines if the string, c, consists of only alphanumeric symbols 
 c = "Another" | c.isalpha() | True | Determines if the string, c, consists of only alphabetic symbols
 c = "0,1,2,3" | print(c.split(",")) | ['0', '1', '2', '3'] | Prints a list of words in some string, c, seperated by the delimiter "," 
-
-### Binary Sequence Types
-### Set Types
-### Mapping Types
-### Type Annotation Types
 
 ## Acknowledgements
 
